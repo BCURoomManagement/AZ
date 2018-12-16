@@ -16,11 +16,6 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".LoginActivity"
@@ -33,6 +28,19 @@
         <activity
             android:name=".GameActivity"
             android:label="@string/title_activity_game" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GameoverActivity"
+            android:label="@string/title_activity_gameover" >
+        </activity>
+        <activity
+            android:name=".GoverActivity"
+            android:label="@string/title_activity_gover" >
         </activity>
     </application>
 
